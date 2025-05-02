@@ -27,7 +27,7 @@ Install the necessary dependencies:
 
 pip install -r requirements.txt
 
-##🎮 Usage
+## 🎮 Usage
 1. Record Mouse Movements
 python main.py ( Output: mouse_data/mouse_data_<timestamp>.json)
 2. Normalize Data
@@ -39,11 +39,11 @@ python transformerTrain.py( Model saved to: models/mouse_transformer.pth)
 5. Simulate Mouse Movement
 python moveMouse.py (Make sure to update target_pos in moveMouse.py for your screen resolution.
 
-##⚠️ Disclaimer
+## ⚠️ Disclaimer
 This tool is intended for research and automation testing only.
 
 Do not use it to automate clicks in sensitive or unauthorized environments.
 
 Ensure all data collection is done with informed user consent.
-##📜 License
+## 📜 License
 MIT License
